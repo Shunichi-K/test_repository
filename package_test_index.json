@@ -1,0 +1,64 @@
+{
+  "packages": [
+    {
+      "maintainer": "Test project",
+      "help": {
+        "online": "http://localhost"
+      },
+      "websiteURL": "http://localhost",
+      "name": "TEST",
+      "platforms": [
+        {
+          "category": "TEST",
+          "name": "TEST Reference Board",
+          "url": "http://localhost",
+          "help": {
+            "online": "http://localhost"
+          },
+          "version": "1.0.0",
+          "architecture": "test",
+          "archiveFileName": "test-v0.1.0.tar.gz",
+          "boards": [
+            {
+              "name": "Generic TEST Module"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "TEST",
+              "version": "1.0.0",
+              "name": "test-tools"
+            }
+          ],
+          "size": "33653981"
+        }
+      ],
+      "tools": [
+        {
+          "version": "1.0.0",
+          "name": "test-tools",
+          "systems": [
+            {
+              "url": "http://localhost/test-tools-v0.1.0.tar.gz",
+              "host": "i686-mingw32",
+              "archiveFileName": "test-tools-v0.1.0.tar.gz",
+              "size": "7093913"
+            },
+            {
+              "_comment": "Allow x64-Linux build",
+              "url": "http://localhost/test-tools-v0.1.0.tar.gz",
+              "host": "x86_64-pc-linux-gnu",
+              "archiveFileName": "test-tools-v0.1.0.tar.gz",
+              "size": "7093913"
+            },            {
+              "url": "http://localhosr/test-tools-v0.1.0.tar.gz",
+              "host": "i386-apple-darwin11",
+              "archiveFileName": "test-tools-v0.1.0.tar.gz",
+              "size": "7093913"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
